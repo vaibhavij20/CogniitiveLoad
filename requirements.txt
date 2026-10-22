@@ -1,0 +1,8 @@
+# Tested combination. Use Python 3.10, 3.11 or 3.12 (NOT the macOS built-in 3.9).
+numpy<2
+pandas
+matplotlib
+reportlab
+mediapipe==0.10.14
+# mediapipe installs opencv-contrib-python (provides cv2), so opencv-python is not listed:
+# having both installed breaks cv2.

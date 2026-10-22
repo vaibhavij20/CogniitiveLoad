@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {"name": "Live monitor: Examination", "type": "debugpy", "request": "launch",
+     "program": "${workspaceFolder}/vision_core.py", "args": ["--mode", "exam"],
+     "cwd": "${workspaceFolder}", "console": "integratedTerminal"},
+    {"name": "Live monitor: Interview", "type": "debugpy", "request": "launch",
+     "program": "${workspaceFolder}/vision_core.py", "args": ["--mode", "interview"],
+     "cwd": "${workspaceFolder}", "console": "integratedTerminal"},
+    {"name": "Analysis + PDF report", "type": "debugpy", "request": "launch",
+     "program": "${workspaceFolder}/run_analysis.py",
+     "cwd": "${workspaceFolder}", "console": "integratedTerminal"},
+    {"name": "Run tests", "type": "debugpy", "request": "launch", "module": "unittest",
+     "args": ["discover", "-s", "tests", "-v"],
+     "cwd": "${workspaceFolder}", "console": "integratedTerminal"}
+  ]
+}

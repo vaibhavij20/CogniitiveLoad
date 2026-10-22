@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+face_landmarker.task
+cognitive_data_backup.csv

@@ -1,0 +1,15 @@
+{
+  "method": "AWR-CLF inverse-variability calibration",
+  "rows": 1028,
+  "source": "/Users/vaibhavijaiswal/Downloads/MV_PROJECT 2/cognitive_data.csv",
+  "weights": {
+    "fatigue": 0.6095858616670894,
+    "distraction": 0.3181549625741346,
+    "stress": 0.07225917575877597
+  },
+  "contribution_share": {
+    "fatigue": 0.4705882352941176,
+    "distraction": 0.2647058823529412,
+    "stress": 0.2647058823529412
+  }
+}

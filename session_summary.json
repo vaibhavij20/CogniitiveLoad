@@ -1,0 +1,21 @@
+{
+  "mode": "interview",
+  "calibrated": true,
+  "baseline": {
+    "blink": 8.987670705242088,
+    "gaze": 0.03783253532530067,
+    "move": 1.7321042862838207,
+    "yaw": 3.8905791094924362,
+    "pitch": 14.243078112884355
+  },
+  "weights": {
+    "fatigue": 0.6304353063916636,
+    "distraction": 0.20242475204909008,
+    "stress": 0.16713994155924636
+  },
+  "frames_logged": 1028,
+  "stability": 74.1,
+  "max_focus_seconds": 14.64,
+  "attention_percent": 94.36,
+  "events": 0
+}
